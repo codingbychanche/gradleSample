@@ -3,7 +3,7 @@
  */
 package gradleTest;
 
-public class Library {
+public static class Library {
     public String  someLibraryMethod() {
         return "Works";
     }
