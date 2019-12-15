@@ -3,8 +3,8 @@
  */
 package gradleTest.libPackage;
 
-public static class Library {
-    public String  someLibraryMethod() {
+public class Library {
+    public static String  someLibraryMethod() {
         return "Works";
     }
 }
