@@ -8,7 +8,7 @@ import libPackage.*;
 
 class MainDemoOfLib{
     public static void main(String []args){
-	String text=someLibraryMethod();
+	String text=Library.someLibraryMethod();
 	System.out.println(text);
     }
 }
